@@ -5,13 +5,14 @@
 **The trustless AI agent marketplace where every payment is real, every budget is on-chain, and you hold the funds — not the operator.**
 
 [![Demo](https://img.shields.io/badge/Demo-Watch%20on%20YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/CI6MGtaYp3w?si=HXUzy7KItHcv3qcs)
-[![Source](https://img.shields.io/badge/Source-GitHub-black?style=for-the-badge&logo=github)](https://github.com/devdianax/clevon)
+[![Source](https://img.shields.io/badge/Source-GitHub-black?style=for-the-badge&logo=github)](https://github.com/smarttyx/clevon)
 [![Network](https://img.shields.io/badge/Network-Stellar%20Testnet-7B2FFF?style=for-the-badge&logo=stellar)](https://stellar.expert/explorer/testnet)
 [![Contract](https://img.shields.io/badge/CleverVault-Deployed-00C853?style=for-the-badge)](https://stellar.expert/explorer/testnet/contract/CDFLEJ2HFPK3WKFTWB4CKP2JHEYNAUWKXGEJRYW4YMMGDSQSQ7D4LRTE)
 
 *Built on Stellar Testnet · All transactions verifiable on stellar.expert · Open-source*
 
-[Live Demo](https://clevon.vercel.app) · [Orchestrator](https://clevon-orchestrator.onrender.com)
+[![Vercel](https://img.shields.io/badge/Live-Vercel-000?style=for-the-badge&logo=vercel)](https://clevon.vercel.app)
+[![Render](https://img.shields.io/badge/Orchestrator-Render-46E3B7?style=for-the-badge&logo=render)](https://clevon-orchestrator.onrender.com)
 
 </div>
 
@@ -24,6 +25,14 @@ AI agents can plan, reason, and decompose complex tasks. But they cannot pay for
 If you want an AI to fetch data from a paywalled API, hire a specialist model, or buy a digital good on your behalf — it hits a wall. Traditional payment rails require bank accounts and browsers. Existing "AI marketplaces" either simulate payments with fake credits or ask you to hand funds to a centralized operator, where only a JavaScript `if` statement separates you from an overspending AI.
 
 **Clevon solves this with real money, real contracts, and real Stellar transactions.**
+
+---
+
+## Demo
+
+[![Clevon Demo](https://img.youtube.com/vi/CI6MGtaYp3w/0.jpg)](https://youtu.be/CI6MGtaYp3w?si=HXUzy7KItHcv3qcs)
+
+*Click the thumbnail above to watch the full walkthrough on YouTube.*
 
 ---
 
@@ -317,7 +326,7 @@ clevon/
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/Bosun-Josh121/clevon.git
+git clone https://github.com/smarttyx/clevon.git
 cd clevon
 npm install
 ```
@@ -433,7 +442,7 @@ Once registered, the orchestrator hires your agent automatically when its capabi
 
 ## Deploy to Render
 
-`render.yaml` is included. Push to GitHub, go to [render.com](https://render.com), click **New → Blueprint**, and connect the repo. Seven services deploy from one config file. After the first deploy, update the `*_SELF_URL` and `REGISTRY_URL` env vars to the assigned `.onrender.com` URLs, then redeploy. Agents re-register themselves on startup.
+`render.yaml` is included. Push to GitHub, go to [render.com](https://render.com), click **New → Blueprint**, and connect `github.com/smarttyx/clevon`. Seven services deploy from one config file. After the first deploy, update the `*_SELF_URL` and `REGISTRY_URL` env vars to the assigned `.onrender.com` URLs, then redeploy. Agents re-register themselves on startup.
 
 ---
 
@@ -469,6 +478,6 @@ The Vault Ledger and Task History make this economy fully auditable — every do
 
 <div align="center">
 
-Built on Stellar Testnet · [Watch Demo](https://youtu.be/CI6MGtaYp3w?si=HXUzy7KItHcv3qcs) · [View Source](https://github.com/Bosun-Josh121/clevon) · [Verify Contract](https://stellar.expert/explorer/testnet/contract/CDFLEJ2HFPK3WKFTWB4CKP2JHEYNAUWKXGEJRYW4YMMGDSQSQ7D4LRTE)
+Built on Stellar Testnet · [Watch Demo](https://youtu.be/CI6MGtaYp3w?si=HXUzy7KItHcv3qcs) · [View Source](https://github.com/smarttyx/clevon) · [Verify Contract](https://stellar.expert/explorer/testnet/contract/CDFLEJ2HFPK3WKFTWB4CKP2JHEYNAUWKXGEJRYW4YMMGDSQSQ7D4LRTE)
 
 </div>
