@@ -7,6 +7,7 @@ wallets.json
 
 # Build output
 dist/
+packages/orchestrator/public/
 
 # Runtime data (ephemeral JSON stores — not committed)
 data/
